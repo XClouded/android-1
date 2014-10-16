@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.zlping.demo.myview.DrawLinerLayout
+        android:id="@+id/order_tips_yesfood_content"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:background="#000008"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+    </com.zlping.demo.myview.DrawLinerLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxEms="6"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:text="lkdfja\n\nadfaf"
+        android:textColor="#f97d03" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/hight_image"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/hiht_light_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/hight_image"
+            android:maxWidth="100dip"
+            android:textColor="#f97d03" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button" />
+
+    <ProgressBar
+        android:id="@+id/RequestLoadingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateDrawable="@anim/publicloading" />
+
+    <com.zlping.demo.myview.MyEditView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.zlping.demo.myview.MyEditView>
+
+    <com.zlping.demo.myview.ClearEditViewLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.zlping.demo.myview.MyEditView
+            android:id="@+id/editid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </com.zlping.demo.myview.MyEditView>
+    </com.zlping.demo.myview.ClearEditViewLayout>
+
+</LinearLayout>

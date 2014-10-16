@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wb_reg_high_alert">#f97d03</color>
+    <color name="tran">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="list_item_selected">#F3d45e</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/select_all" android:layout_weight="1" android:text="全选"/> -->
+
+            <Button
+                android:id="@+id/back_app_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="备份数据" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_app"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_right_probar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#ccffffff"
+        android:visibility="gone"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="正在备份。。。"/>
+    </LinearLayout>
+
+</RelativeLayout>

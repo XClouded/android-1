@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wb_reg_high_alert" >
+
+    
+
+    <com.zlping.demo.myview.AddViewInLayout
+        android:id="@+id/gl_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/meinu" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adfasfasdfsaf" />
+    </com.zlping.demo.myview.AddViewInLayout>
+	<Button
+	    android:id="@+id/gl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button" />
+    <com.zlping.demo.opengl.GLView
+        android:id="@+id/gl_view"
+        android:layout_below="@id/gl_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="httpClient" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="currentAPN" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button7" />
+
+    <TextView
+        android:id="@+id/response_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.zlping.demo.common.WheelView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.zlping.demo.AnimLinearLayout
+        android:id="@+id/animLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="移动" />
+    </com.zlping.demo.AnimLinearLayout>
+    
+   <com.zlping.demo.AnimView
+        android:id="@+id/animView"
+        android:layout_width="20dip"
+        android:background="@color/white"
+        android:layout_height="20dip" >
+
+   </com.zlping.demo.AnimView>
+
+</LinearLayout>
